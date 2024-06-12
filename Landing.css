@@ -1,0 +1,96 @@
+/* BACKGROUND DESIGN / COLOR */
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.627),rgba(0, 0, 0, 0.288)), url('landing\ page\ BG\ image.png');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    font-family: sans-serif;
+    
+  }
+
+  nav{
+    width: 100%;
+    height: 100px;
+    color:white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+/* CSS FOR LOGO */
+.logo img{
+  width: 275px; 
+  height: auto;
+
+  justify-content: left;
+}
+
+.menu a{
+text-decoration: none;
+color: white;
+padding: 10px 20px;
+font-size: 20px;
+position: relative;
+}
+.menu a:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  /* background-color: #22968e; */
+  border-bottom: 2px solid #22968e;
+  transition: 0.4s linear;
+}
+.menu a:hover:before{
+  width: 90%;
+}
+
+.signup a{
+  text-decoration: none;
+color: white;
+padding: 10px 20px;
+font-size: 20px;
+background-color: #22968e;
+border-radius: 50px;
+transition: 0.4s;
+}
+.signup a:hover {
+  background:transparent;
+  border:2px solid #22968e;
+}
+
+.h-text{
+  max-width: 650px;
+  position: absolute;
+  top: 29%;
+  left: 28%;
+  transform: (-50%,-50%);
+  text-align: center;
+}
+.h-text a{
+ 
+text-decoration: none;
+color: white;
+padding: 10px 20px;
+font-size: 20px;
+background-color: #22968e;
+border-radius: 50px;
+
+}
+
+section a:hover{
+  background:transparent;
+  border:2px solid #22968e;
+  transition: 0.4s;
+}
+.h-text span{
+  letter-spacing: 5px;
+}
+.h-text h1{
+  font-size: 3.5em;
+}
+
+
+
+/* LANDING PAGE COMPLETED */
